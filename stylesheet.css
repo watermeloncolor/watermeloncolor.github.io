@@ -1,0 +1,59 @@
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 600px;
+}
+.calculator h1{
+    font-family: 'Orbitron';
+    color:#53B2F2;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    color:#fff;
+    text-align: right;
+    font-size: 45px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 45px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+    font-family: 'Orbitron';
+}
+
+.all-clear, .zero-btn{
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: #53B2F2;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: #307AAD;
+}
